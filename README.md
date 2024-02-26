@@ -12,8 +12,15 @@ This Python script utilizes Telethon to interact with the Telegram API and SQLit
 ### Setup:
 
 1. **Environment Variables**:
-   - Ensure you have set up environment variables for `TELEGRAM_API_ID`, `TELEGRAM_API_HASH`, and `TELEGRAM_SESSION_NAME`.
-   
+   - Create a file named `.env` in the project directory.
+   - Inside the `.env` file, set the following variables:
+     ```
+     TELEGRAM_API_ID=your_telegram_api_id
+     TELEGRAM_API_HASH=your_telegram_api_hash
+     TELEGRAM_SESSION_NAME=your_telegram_session_name
+     ```
+   - Replace `your_telegram_api_id`, `your_telegram_api_hash`, and `your_telegram_session_name` with your actual Telegram API ID, API hash, and session name respectively.
+
 2. **Dependencies**:
    - Install the required dependencies using `pip install -r requirements.txt`.
 
